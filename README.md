@@ -1,3 +1,10 @@
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+[![Experiment Status](https://img.shields.io/badge/status-raw%20data-orange)](https://github.com/slappymambadoo/claude-code-local-qwen-case-study)
+[![LLM](https://img.shields.io/badge/LLM-Qwen3.5--27B-blue)](https://github.com/QwenLM/Qwen)
+[![Framework](https://img.shields.io/badge/framework-llama.cpp-black)](https://github.com/ggerganov/llama.cpp)
+[![Tool](https://img.shields.io/badge/tool-Claude%20Code-purple)](https://docs.anthropic.com/en/docs/claude-code)
+[![Platform](https://img.shields.io/badge/platform-WSL%202.0-0078D6)](https://learn.microsoft.com/en-us/windows/wsl/)
+
 # claude-code-local-qwen-case-study
 
 ## Using llama.cpp on WSL 2.0
