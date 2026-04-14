@@ -18,6 +18,10 @@ The task:
 **Iterations:** 7‑8 debugging cycles.  
 **Final result:** All 50 tests pass.
 
+## Initial Condition
+
+The project folder started out with instructions.md and project_instructions.md **ONLY** - everything else is created by following whats in instructions.md.
+
 ## Files in this repo
 
 | File | What it is |
@@ -25,7 +29,7 @@ The task:
 | `sample_llama.cpp_log.txt` | The **llama.cpp server log** – shows prompt processing (1994 t/s), generation (38 t/s), cache thrashing (9 checkpoints evicted), and total token counts. |
 | `Claude_Code_client.log` | The **Claude Code client log** – every command, failed test, code edit, and the eventual success. |
 | `Qwen3.5-27B-opustuned-Q8_0.py` | The **concatenated source code** produced by the model. Contains all modules and the 50 tests. |
-| `instruction.md` | The exact commands I ran for this test |
+| `instructions.md` | The exact commands I ran for this test |
 | `project_instructions.md` | The exact prompt given to Claude Code (the task description). |
 | `test.log` | The **pytest output** showing 50 tests passing in 0.04 seconds. |
 
@@ -84,6 +88,3 @@ Iterations needed: Class name mismatches (TodoStorage → TaskStorage), argument
 Most "AI coding" demos show cloud models finishing this task in 2–5 minutes. This is the real world for a local 27B model on consumer hardware. It works, but it's slow. The trade‑off: privacy, control, and no API costs.
 
 If you're evaluating local LLMs for agentic coding, this repo gives you hard numbers and a full transcript – no curation, no marketing.
-
-## License
-Unlicense – use it as evidence, a benchmark, or a cautionary tale.
