@@ -4,11 +4,20 @@
 [![Framework](https://img.shields.io/badge/framework-llama.cpp-black)](https://github.com/ggerganov/llama.cpp)
 [![Tool](https://img.shields.io/badge/tool-Claude%20Code-purple)](https://docs.anthropic.com/en/docs/claude-code)
 [![Platform](https://img.shields.io/badge/platform-WSL%202.0-0078D6)](https://learn.microsoft.com/en-us/windows/wsl/)
+[![Hardware](https://img.shields.io/badge/hardware-RTX5090%2B14900K%2B128GB-black)](https://github.com/slappymambadoo/claude-code-local-qwen-case-study)
 
 # claude-code-local-qwen-case-study
 
 ## Using llama.cpp on WSL 2.0
 'llama-server' and 'Claude Code' run under WSL
+
+## Hardware
+
+- **GPU:** NVIDIA RTX 5090 (32 GB VRAM)
+- **CPU:** Intel 14900K (24 cores / 32 threads)
+- **RAM:** 128 GB DDR4 3200 MHz
+- **Host OS:** Windows 11
+- **Environment:** WSL 2.0 (Ubuntu)
 
 ## What is this?
 
